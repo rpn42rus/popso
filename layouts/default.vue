@@ -1,6 +1,8 @@
 <template>
   <el-container class="container">
-    <el-aside class="aside">Aside</el-aside>
+    <el-aside class="aside">
+      <Sidebar />
+    </el-aside>
     <el-main>
       <Nuxt />
     </el-main>

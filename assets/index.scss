@@ -15,10 +15,36 @@ body {
   font-family: 'Monserat';
   font-size: 14px;
   font-weight: 500;
+  line-height: 20px;
   color: #303136;
+}
+
+ul li {
+	list-style: none;
+}
+
+:focus,
+:active {
+	outline: none;
+}
+
+a:focus,
+a:active {
+	outline: none;
+}
+
+a,
+a:visited {
+  color: #303136;
+	text-decoration: none;
+}
+
+a.nuxt-link-exact-active {
+  color: #BD0D22;
 }
 
 .container {
   max-width: 1200px;
   margin: 0 auto;
 }
+
