@@ -1,6 +1,8 @@
 <template>
   <div class="sidebar__wrapper">
     <img class="logo" src="../static/images/logo.svg" alt="" />
+
+    <Navigation />
   </div>
 </template>
 
