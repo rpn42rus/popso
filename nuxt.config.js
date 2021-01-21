@@ -14,7 +14,7 @@ export default {
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
 
-  css: ['element-ui/lib/theme-chalk/index.css'],
+  css: ['element-ui/lib/theme-chalk/index.css', '@/assets/index.scss'],
 
   plugins: ['@/plugins/element-ui'],
 
