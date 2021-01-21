@@ -1,3 +1,23 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: 'Monserat';
+  font-size: 14px;
+  font-weight: 500;
+  color: #303136;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
