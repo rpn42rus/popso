@@ -2,7 +2,7 @@
   <nav>
     <ul class="menu">
       <li class="menu__item">
-        <nuxt-link to="##">
+        <nuxt-link class="menu__item-link" to="##">
           <svg
             width="20"
             height="18"
@@ -19,7 +19,7 @@
         </nuxt-link>
       </li>
       <li class="menu__item statistic">
-        <nuxt-link to="####">
+        <nuxt-link class="menu__item-link" to="####">
           <svg
             width="17"
             height="20"
@@ -32,12 +32,11 @@
               fill="#303136"
             />
           </svg>
-
           <span>Список задач</span>
         </nuxt-link>
       </li>
       <li class="menu__item todos invert">
-        <nuxt-link to="#">
+        <nuxt-link class="menu__item-link" to="#">
           <svg
             width="20"
             height="20"
@@ -90,9 +89,24 @@ export default {}
 </script>
 
 <style lang="scss" scoped>
-.nuxt-link-exact-active {
-  svg path {
-    fill: #bd0d22;
+.menu {
+  &__item {
+    &-link {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      span {
+        margin-left: 10px;
+      }
+    }
   }
+}
+
+a.nuxt-link-exact-active {
+  color: #bd0d22;
+}
+
+.nuxt-link-exact-active svg path {
+  fill: #bd0d22;
 }
 </style>

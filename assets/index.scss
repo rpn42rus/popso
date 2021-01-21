@@ -13,7 +13,7 @@ html,
 body {
   height: 100%;
   font-family: 'Monserat';
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 20px;
   color: #303136;
@@ -39,12 +39,8 @@ a:visited {
 	text-decoration: none;
 }
 
-a.nuxt-link-exact-active {
-  color: #BD0D22;
-}
-
 .container {
-  max-width: 1200px;
+  max-width: 1280px;
   margin: 0 auto;
 }
 
